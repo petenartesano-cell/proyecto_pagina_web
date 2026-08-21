@@ -1,4 +1,4 @@
-/* Reset y variables base */
+
 * {
   margin: 0;
   padding: 0;
@@ -8,12 +8,12 @@
 }
 
 :root {
-  --primary: #143628;        /* Verde oscuro profundo para la barra lateral y títulos */
-  --accent: #16a34a;         /* Verde vibrante para botones, íconos y enlaces */
-  --accent-hover: #15803d;   /* Verde más oscuro para cuando pases el mouse */
-  --bg-light: #f4f7f5;       /* Fondo claro con un leve tinte verde/gris */
-  --text-dark: #0f172a;      /* Texto principal */
-  --text-muted: #64748b;     /* Texto secundario */
+  --primary: #143628;        
+  --accent: #16a34a;         
+  --accent-hover: #15803d;   
+  --bg-light: #f4f7f5;       
+  --text-dark: #0f172a;      
+  --text-muted: #64748b;     
   --white: #ffffff;
 }
 
@@ -22,13 +22,13 @@ body {
   color: var(--text-dark);
 }
 
-/* Dashboard Layout */
+
 .dashboard-container {
   display: flex;
   min-height: 100vh;
 }
 
-/* Sidebar */
+
 .sidebar {
   width: 280px;
   background-color: var(--primary);
@@ -108,13 +108,12 @@ body {
   transform: translateY(-3px) scale(1.1);
 }
 
-/* Main Content */
+
 .main-content {
   margin-left: 280px;
   flex: 1;
 }
 
-/* Imagen de fondo de la sección Hero */
 .hero-section {
   background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.75)), 
               url('artesano.jpg') center/cover no-repeat;
@@ -215,7 +214,7 @@ body {
   background-color: var(--accent);
 }
 
-/* Noticias */
+
 .news-container {
   display: flex;
   flex-direction: column;
@@ -238,7 +237,7 @@ body {
   font-weight: 600;
 }
 
-/* Sobre la Empresa */
+
 .about-block {
   margin-bottom: 1.5rem;
 }
@@ -262,7 +261,7 @@ body {
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-/* Contacto y Mapa */
+
 .contact-details {
   margin: 1rem 0;
   display: flex;
@@ -274,7 +273,7 @@ body {
   margin-top: 1rem;
 }
 
-/* FAQ */
+
 .faq-item {
   background: var(--white);
   margin-bottom: 1rem;
@@ -292,7 +291,7 @@ body {
   color: var(--text-muted);
 }
 
-/* Video Frame Exacto 480x360 */
+
 .video-frame-container {
   margin-top: 1.5rem;
   display: flex;
@@ -306,7 +305,7 @@ body {
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
-/* Tabla de Integrantes */
+
 .table-responsive {
   overflow-x: auto;
 }
@@ -341,12 +340,12 @@ body {
   text-decoration: underline;
 }
 
-/* Alineación para la tabla de 2 columnas */
+
 .text-right {
   text-align: right !important;
 }
 
-/* Footer */
+
 .main-footer {
   text-align: center;
   padding: 1.5rem;
@@ -355,7 +354,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* Adaptabilidad para Celulares y Tablets */
+
 @media (max-width: 768px) {
   .dashboard-container { 
     flex-direction: column; 
@@ -417,7 +416,7 @@ body {
   }
 }
 
-/* Estilos para animación Fade-In controlada por JS */
+
 .fade-in-section {
   opacity: 0;
   transform: translateY(20px);
