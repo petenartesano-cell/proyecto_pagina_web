@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  // 1. Resaltar enlace del menú según la sección visible (Scrollspy)
+  
   const sections = document.querySelectorAll('section');
   const navLinks = document.querySelectorAll('.nav-links a');
 
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 2. Animación de aparición suave al hacer Scroll
+ 
   const observerOptions = {
     threshold: 0.15
   };
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(section);
   });
 
-  // 3. Micro-animaciones en íconos al pasar el cursor
+  
   const cards = document.querySelectorAll('.card');
   cards.forEach(card => {
     const icon = card.querySelector('.card-icon');
